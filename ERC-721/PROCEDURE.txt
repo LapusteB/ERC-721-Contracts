@@ -1,0 +1,45 @@
+Procedure:
+
+-start-
+1. Create New Workspace
+2. Create new contract
+3. Paste Everything
+4. Note Down compiler
+5. plugin manager->flattener
+6. click flatten contracts/ then click save
+7. remember this choice then accept.
+
+-License-
+8. find cob.sol original and copy "// SPDX-License"
+9. paste at bottom _flat.sol at top
+
+10. CHECK EVERYTHING INCLUDING NAME AND SYMBOL AND CONTRACT NAME
+(Mint price might be 0.0 to start)
+
+-IPFS-
+11. copy IPFS hidden to "sethiddenmetadatauri()"
+this: QmW5KuM2tefspChbL3CbznZG2BQK8yHUMaAwDXCufTKjk3/hidden.json
+to this: ipfs://ipfs/QmW5KuM2tefspChbL3CbznZG2BQK8yHUMaAwDXCufTKjk3/hidden.json
+
+-DEPLOY-
+12. Choose the "(Name)_flat.sol" then deploy on web3 with correct address
+
+
+-Verify and Publish-
+13. copy contract address.
+14. Single File
+15. Compiler Version
+16. MIT license then continue.
+17. Optimize contract?
+18. Remove constructor arguments
+19. Copy and paste all code at top.
+
+20. Set Paused to False (Check with read)
+change mint price to 0.0
+
+*****************************************REVEAL*****************************************
+21. (OF ANY JSON) setUriPrefix: " ipfs://QmW5KuM2tefspChbL3CbznZG2BQK8yHUMaAwDXCufTKjk3/
+22. setRevealed : True
+*****************************************REVEAL*****************************************
+
+
